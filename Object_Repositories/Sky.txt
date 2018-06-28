@@ -1,0 +1,37 @@
+#config Objects
+Base_URL=http://192.168.1.8:8081/TEST_SITE
+Base_Module=/Account/Login
+Browser=Firefox
+Login_UserName=skyadmin
+Login_Password=Skypass
+
+#Login Page Objects
+txtbx_UserName_id=UserName
+txtbx_Password_id=Password
+chkbox_Remember_id=RememberMe
+btn_Login_xpath=html/body/div[1]/div/div[2]/div/form/input[2]
+
+#CreateUser Page Objects
+btnCreateAclUser_id=btnCreateAclUser
+UserTitle_id=UserTitle
+FirstName_id=FirstName
+MiddleName_id=MiddleName
+LastName_id=LastName
+Address1_id=Address1
+Address2_id=Address2
+Address3_id=Address3
+City_id=City
+State_id=State
+Zipcode_id=Zipcode
+OfficeTel_id=OfficeTel
+MainTel_id=MainTel
+PagerTel_id=PagerTel
+MobileTel_id=MobileTel
+Fax_id=Fax
+Email_id=Email
+Password_id=Password
+ConfirmPassword_id=ConfirmPassword
+AclUsers_0__UserName_id=AclUsers_0__UserName
+RoleCollection_id=RoleCollection
+AclUsers_0__Status_id=AclUsers_0__Status
+CreateAclUser_id=CreateAclUser

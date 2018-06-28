@@ -1,0 +1,5 @@
+#Login Page Objects
+txtbx_UserName_id=UserName
+txtbx_Password_id=Password
+chkbox_Remember_id=RememberMe
+btn_Login_xpath=html/body/div[1]/div/div[2]/div/form/input[2]

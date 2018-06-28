@@ -1,0 +1,14 @@
+#config Objects
+Login_URL=https://staging.testsite.com/codadmin2/index.php
+Base_URL=https://staging.testsite.com
+Base_Module=/codadmin2/index.php
+
+Browser=Firefox
+Login_UserName=hosher
+Login_Password=cod
+
+
+#Login Page Objects
+txtbx_UserName_id=username
+txtbx_Password_id=password
+btn_Login_xpath=//*[@id="input"]
